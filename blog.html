@@ -1,0 +1,64 @@
+---
+layout: blog
+title: Blog
+---
+
+{% assign pubs_by_year = site.blogging | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+
+
+<div class="row">
+    <div class="col-12 col-lg-10 d-flex flex-wrap">
+        {% assign list_keywords = site.blogging | map: 'keywords' | join: ',' | split: ',' | uniq | sort %}
+        {% for keyword in list_keywords %}
+        <a href="#" class="btn btn-outline-primary m-2 filter-btn" data-keyword="{{ keyword }}">{{ keyword }}</a>
+        {% endfor %}
+    </div>
+    <div class="col-12 col-lg-10 publications-list">
+        {% for year in pubs_by_year %}
+        {% assign num_papers = year.items | size %}
+        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% for item in year.items %}
+            <div class="publication-item" data-keywords="{{ item.keywords | join: ',' }}">
+                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for year in pubs_by_year %}
+            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const publications = document.querySelectorAll('.publication-item');
+
+        // Loop over each filter button
+        filterButtons.forEach(function(btn) {
+            btn.addEventListener('click', function(event) {
+                event.preventDefault();
+                const keyword = this.getAttribute('data-keyword');
+
+                // Loop over each publication
+                publications.forEach(function(pub) {
+                    const pubKeywords = pub.getAttribute('data-keywords').split(',');
+
+                    // If publication contains the clicked keyword, show it; otherwise, hide it
+                    if (pubKeywords.includes(keyword)) {
+                        pub.style.display = 'block';
+                    } else {
+                        pub.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>

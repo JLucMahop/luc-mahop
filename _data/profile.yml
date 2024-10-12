@@ -1,0 +1,60 @@
+primary_name: "Luc MAHOP"
+secondary_name: ""
+navbar_name: "Luc MAHOP"
+
+positions:
+- logo: /assets/images/badges/uga.png  # Logo is optional
+  name: PhD Student, Université Grenoble Alpes
+- logo : /assets/images/badges/lig.png
+  name: KrakOS, Laboratoire d'Informatique de Grenoble
+
+
+email: "mahopngosluc@gmail.com"
+# cv_link: link-to-your-cv-file
+gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: JLucMahop
+twitter: your_twitter_id  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p class="text-justify gowun-batang-regular">
+  I am currently a Ph.D. Student in computer science at the LIG laboratory of the University of Grenoble Alpes, France, under the supervision of Prof. <a href="https://lig-membres.imag.fr/boyer/html/index.html">Fabienne Boyer</a> , Prof. <a href="https://perso.ens-lyon.fr/alain.tchana/">Alain Tchana</a> and <a href="https://sites.google.com/view/baptiste-lepers">Baptiste Lepers</a>. My research interests include virtualization, cloud computing , and operating systems. Check out my CV.
+  </p>
+  <p class="mb-4 text-justify gowun-batang-regular">
+  My main research axes are Systems and Machine Learning (ML). With a background in Systems and a recent interest in ML, I aim to work at their intersection, proposing systems-level optimizations for ML frameworks and algorithms.
+  </p>
+
+portrait_url: /assets/images/photos/luc-1.jpg
+portrait_caption: >-
+  Photo by Inria Grenoble Photographer.
+
+education:
+- name: Massachusetts Institute of Technology
+  logo: /assets/images/badges/MIT_Social_circle.png
+  position: >- 
+    Department of Electrical Engineering and Computer Science <br/>
+    Ph.D. Student
+  date: Oct. 2024 - present
+- name: Ecole Nationale Supérieure Polytechnique de Yaoundé
+  logo: /assets/images/badges/enspy.png
+  position: M. Eng in Computer Science
+  date: Sep. 2019 - Jul. 2024
+
+# experience:
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Intern
+#   date: Sep. 2019 - Jul. 2021
+
+awards:
+- name: Computer Science Departement Valedictorian.
+  date: 2024
+- name: Winner of CANAM DataScience Competition.
+  date: 2021
+- name: Best Student of Lycée d'Eséka.
+  date: 2019
