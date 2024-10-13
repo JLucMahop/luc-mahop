@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Blog
+navbar_title: Blog
 ---
 
 {% assign pubs_by_year = site.blogging | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}

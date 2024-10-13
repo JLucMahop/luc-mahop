@@ -14,6 +14,7 @@ email: "mahopngosluc@gmail.com"
 gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: JLucMahop
 twitter: your_twitter_id  # Do not include the '@' symbol
+linkedin: luc-mahop-ngos-486b36222
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -34,10 +35,10 @@ portrait_caption: >-
   Photo by Inria Grenoble Photographer.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Université Grenoble Alpes
+  logo: /assets/images/badges/uga.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
+    Doctoral School of Mathematics, Information Science and Computer Science <br/>
     Ph.D. Student
   date: Oct. 2024 - present
 - name: Ecole Nationale Supérieure Polytechnique de Yaoundé
@@ -54,7 +55,7 @@ education:
 awards:
 - name: Computer Science Departement Valedictorian.
   date: 2024
-- name: Winner of CANAM DataScience Competition.
+- name: 3rd Price of CANAM Data science Competition.
   date: 2021
-- name: Best Student of Lycée d'Eséka.
+- name: AELEG Price of Best Student of Lycée d'Eséka.
   date: 2019
