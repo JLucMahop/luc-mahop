@@ -40,4 +40,6 @@ collections:
   - news
   - showcase
   - blogging
+    permalink: /:id
+
 

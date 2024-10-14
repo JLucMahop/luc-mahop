@@ -7,3 +7,5 @@ pages:
   url: /blog
 - name: Showcase
   url: /showcase
+- name: Resume
+  url: /assets/pdf/cv_mahop_luc_long.pdf
