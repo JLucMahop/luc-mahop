@@ -24,10 +24,10 @@ linkedin: luc-mahop-ngos-486b36222
 short_bio_text_justify: false
 short_bio: >-
   <p class="text-justify gowun-batang-regular">
-  I am currently a Ph.D. Student in computer science at the LIG laboratory of the University of Grenoble Alpes, France, under the supervision of Prof. <a href="https://lig-membres.imag.fr/boyer/html/index.html">Fabienne Boyer</a> , Prof. <a href="https://perso.ens-lyon.fr/alain.tchana/">Alain Tchana</a> and <a href="https://sites.google.com/view/baptiste-lepers">Baptiste Lepers</a>. My research interests include virtualization, cloud computing , and operating systems. Check out my CV.
+  I am currently a Ph.D. student in Computer Science at the LIG laboratory of the University of Grenoble Alpes, France, under the supervision of Prof. <a href="https://lig-membres.imag.fr/boyer/html/index.html">Fabienne Boyer</a> , Prof. <a href="https://lig-membres.imag.fr/tchanaa/index.html">Alain Tchana</a>, and <a href="https://sites.google.com/view/baptiste-lepers">Baptiste Lepers</a>  ASR. My research interests include virtualization, cloud computing, and operating systems. Check out my CV.
   </p>
   <p class="mb-4 text-justify gowun-batang-regular">
-  My main research axes are Systems and Machine Learning (ML). With a background in Systems and a recent interest in ML, I aim to work at their intersection, proposing systems-level optimizations for ML frameworks and algorithms.
+  Virtualization: making your hardware feel like it has multiple personalities! 😜💻
   </p>
 
 portrait_url: /assets/images/photos/luc-1.jpg
